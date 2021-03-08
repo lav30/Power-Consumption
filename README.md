@@ -24,7 +24,7 @@ Interactive website to calculate the power consumption in a power plant based on
 
 ## Project Description 
 
-This project will focus on training several machine learning models on a dataset based on sensor readings in a power plant to predict the net hourly energy output. This problem can be formulated as a regression model as the feature being predicted is a quantitative element. Further, a web application is built using Flask and  deployed using Heroku and the application built using Python can be accessed using an URL. The source code needed for the app deployment is hosted on Github.
+This project focuses on training several machine learning models on a dataset based on sensor readings in a power plant to predict the net hourly energy output. This problem can be formulated as a regression model as the feature being predicted is a quantitative element. Further, a web application is built using Flask and  deployed using Heroku and the application built using Python can be accessed using an URL. The source code needed for the app deployment is hosted on Github.
 
 ## Model Training 
 
