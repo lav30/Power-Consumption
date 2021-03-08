@@ -4,15 +4,14 @@ Interactive website to calculate the power consumption in a power plant based on
 
 ## Table of Contents 
 
-
--[Project Website](project-website)
--[Project Workflow](project-workflow)
--[Project Description](project-description)
--[Model Training](model-training)
--[Web Application](web-application)
--[App Deployment using Heroku](app-deployment-using-heroku)
--[Dataset Information](dataset-information)
--[License](license)
+- [Project Website](project-website)
+- [Project Workflow](project-workflow)
+- [Project Description](project-description)
+- [Model Training](model-training)
+- [Web Application](web-application)
+- [App Deployment using Heroku](app-deployment-using-heroku)
+- [Dataset Information](dataset-information)
+- [License](license)
 
 
 ## Project Website 
