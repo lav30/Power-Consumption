@@ -7,7 +7,7 @@ import numpy as np
 from openpyxl import load_workbook
 
 
-app = Flask(__name__)
+my_app = Flask(__name__)
 
 df = pd.read_excel('Folds5x2_pp.xlsx')
 model = load_model('Final XGBoost Model 3March2021')
@@ -18,11 +18,11 @@ data.reset_index(drop=True, inplace=True)
 data_unseen.reset_index(drop=True, inplace=True)
 
 
-@app.route('/')
+@my_app.route('/')
 def home():
     return render_template("app.html")
 
-@app.route('/predict',methods=['POST'])
+@my_app.route('/predict',methods=['POST'])
 def predict():
     int_features = [x for x in request.form.values()]
     final = np.array(int_features)
@@ -31,7 +31,7 @@ def predict():
     prediction = int(prediction.Label[0])
     return render_template('app.html',pred='Expected Power Output in MW : {}'.format(prediction))
 
-@app.route('/predict_api',methods=['POST'])
+@my_app.route('/predict_api',methods=['POST'])
 def predict_api():
     data = request.get_json(force=True)
     data_unseen = pd.DataFrame([data])
@@ -40,4 +40,4 @@ def predict_api():
     return jsonify(output)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    my_app.run(debug=True)
