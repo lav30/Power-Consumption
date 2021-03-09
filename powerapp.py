@@ -4,7 +4,7 @@ from flask import Flask,request, url_for, redirect, render_template, jsonify
 from pycaret.regression import *
 import pandas as pd
 import numpy as np
-from openpyxl import load_workbook
+#from openpyxl import load_workbook
 
 
 app = Flask(__name__)
