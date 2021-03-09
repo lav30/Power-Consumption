@@ -1,1 +1,1 @@
-web: gunicorn app : powerapp
+web: gunicorn powerapp : app
