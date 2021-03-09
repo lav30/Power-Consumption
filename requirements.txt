@@ -98,7 +98,6 @@ nest-asyncio==1.4.0
 networkx==2.5
 nltk==3.5
 notebook==6.2.0
-notebook-as-pdf==0.3.1
 numba==0.52.0
 numexpr==2.7.3
 numpy==1.19.5
