@@ -127,7 +127,6 @@ protobuf==3.15.4
 psutil==5.7.2
 ptyprocess==0.7.0
 py==1.9.0
-PyBOMBS==2.3.4a0
 pycountry==20.7.3
 pycountry-convert==0.7.2
 pycparser==2.20
