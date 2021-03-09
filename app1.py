@@ -7,6 +7,7 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
+server = app.server
 
 df = pd.read_excel("Folds5x2_pp.xlsx")
 model = load_model('Final XGBoost Model 3March2021')
