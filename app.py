@@ -4,7 +4,6 @@ from flask import Flask,request, url_for, redirect, render_template, jsonify
 from pycaret.regression import *
 import pandas as pd
 import numpy as np
-from openpyxl import load_workbook
 
 
 app = Flask(__name__)
@@ -16,7 +15,6 @@ data = df.sample(frac=0.8, random_state=786)
 data_unseen = df.drop(data.index)
 data.reset_index(drop=True, inplace=True)
 data_unseen.reset_index(drop=True, inplace=True)
-
 
 @app.route('/')
 def home():
