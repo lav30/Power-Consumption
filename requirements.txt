@@ -148,6 +148,7 @@ webencodings==0.5.1
 websockets==8.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
+xlrd==2.0.1
 yarg==0.1.9
 zict==2.0.0
 zipp==3.1.0
