@@ -1,6 +1,6 @@
 # End to End Machine Learning Project
 
-![Alt text](Webapp.jpg?raw=true "Title")
+![Alt text](banner.png?raw=true "Title")
 
 Interactive website to calculate the power consumption in a power plant based on distinct variables such as Ambient Temperature , Relative Humidity, Exhaust Vacuum  and Ambient Pressure. Numerical values of these variables can be entered in a website deployed using Heroku to compute the electrical energy per hour (MW). This project is presented as an upgraded version of what originally was a Master's degree course assignment.
 
