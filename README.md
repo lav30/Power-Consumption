@@ -1,7 +1,7 @@
 
 ![Alt text](Banner-2.png?raw=true "Title")
 
-Interactive website to calculate the power consumption in a power plant based on distinct variables such as Ambient Temperature , Relative Humidity, Exhaust Vacuum  and Ambient Pressure. Numerical values of these variables can be entered in a website deployed using Heroku to compute the electrical energy per hour (MW). This project is presented as an upgraded version of what originally was a Master's degree course assignment.
+Interactive website to calculate the power consumption in a power plant based on distinct variables such as Ambient Temperature , Relative Humidity, Exhaust Vacuum  and Ambient Pressure. Numerical values of these features can be entered in a website deployed using Heroku to compute the electrical energy per hour (MW). This project is presented as an upgraded version of what originally was a Master's degree course assignment.
 
 ## Table of Contents 
 
