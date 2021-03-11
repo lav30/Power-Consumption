@@ -2,13 +2,14 @@
 
 ![Alt text](powerplant.png?raw=true "Title")
 
-Interactive website to calculate the power consumption in a power plant based on distinct variables such as Ambient Temperature , Relative Hunmidity, Exhaust Vacuum  and Ambient Pressure. Numerical values of these variables can be entered in a website deployed using Heroku to compute the electrical energy per hour (MW).
+Interactive website to calculate the power consumption in a power plant based on distinct variables such as Ambient Temperature , Relative Humidity, Exhaust Vacuum  and Ambient Pressure. Numerical values of these variables can be entered in a website deployed using Heroku to compute the electrical energy per hour (MW).
 
 ## Table of Contents 
 
 - [Project Website](#project-website)
 - [Project Workflow](#project-workflow)
 - [Project Description](#project-description)
+- [Installation](#installation)
 - [Model Training](#model-training)
 - [Web Application](#web-application)
 - [App Deployment using Heroku](#app-deployment-using-heroku)
@@ -18,8 +19,10 @@ Interactive website to calculate the power consumption in a power plant based on
 
 ## Project Website 
 
+[Project Website](https://pycaret-power.herokuapp.com/predict). The user can enter values for different features such as Ambient Temperature, Relative Humidity, Exhaust Vacuum and Ambient Pressure *within the ranges specified* to obtain a prediction for the electrical energy output in MW.  
 
 ## Project Workflow 
+
   - Training machine learning models using Pycaret
   - Simple web application using Flask
   - Deployment of the web application using Heroku 
@@ -27,6 +30,14 @@ Interactive website to calculate the power consumption in a power plant based on
 ## Project Description 
 
 This project focuses on training several machine learning models on a dataset based on sensor readings in a power plant to predict the net hourly energy output. This problem can be formulated as a regression model as the feature being predicted is a quantitative element. Further, a web application is built using Flask and  deployed using Heroku and the application built using Python can be accessed using an URL. The source code needed for the app deployment is hosted on Github.
+
+## Installation 
+
+- Flask
+- Heroku
+- Git
+- Pycaret
+- Pandas
 
 ## Model Training 
 
@@ -37,26 +48,30 @@ The models are created and tuned (10 fold cross validation) and compared using d
 
 ![Alt text](ResPlot.png?raw=true "Title")
 
+The graph above indicates a residual plot for the XgBoost model. In the plot, each point represents hourly average sensor outputs and the x and y axes represent the predicted values and residuals respectively. The distance of a point from the line at '0' represents how far the predicted value is from the actual value. Consequently, points scattered around zero indicate a good model. 
 
 ## Web Application
 
-Flask
+[Flask](https://flask.palletsprojects.com/en/1.1.x/) has been utilised to build the web application. 
 
 ## App Deployment using Heroku
 
-Heroku 
+The app deployed locally using Flask is deployed as a website using [Heroku](https://www.heroku.com).
 
 ## Dataset Information
+
+The [dataset](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant#) is available on the UCI Machine Learning Repository.
 
 ## License
 
 Released under MIT License.
 
-Copyright (c) 2021 Lavanya Ramesh Naik.
-
 ## Citation 
 
-Pınar Tüfekci, Prediction of full load electrical power output of a base load operated combined cycle power plant using machine learning methods, International Journal of Electrical Power & Energy Systems, Volume 60, September 2014, Pages 126-140, ISSN 0142-0615, [Web Link].
+1. Pınar Tüfekci, Prediction of full load electrical power output of a base load operated combined cycle power plant using machine learning methods, International Journal of Electrical Power & Energy Systems, Volume 60, September 2014, Pages 126-140, ISSN 0142-0615, [Web Link].
 ([Web Link])
 
-Heysem Kaya, Pınar Tüfekci , Sadık Fikret Gürgen: Local and Global Learning Methods for Predicting Power of a Combined Gas & Steam Turbine, Proceedings of the International Conference on Emerging Trends in Computer and Electronics Engineering ICETCEE 2012, pp. 13-18 (Mar. 2012, Dubai)
+2. Heysem Kaya, Pınar Tüfekci , Sadık Fikret Gürgen: Local and Global Learning Methods for Predicting Power of a Combined Gas & Steam Turbine, Proceedings of the International Conference on Emerging Trends in Computer and Electronics Engineering ICETCEE 2012, pp. 13-18 (Mar. 2012, Dubai)
+
+3. https://github.com/pycaret/deployment-heroku
+
