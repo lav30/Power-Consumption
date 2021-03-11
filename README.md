@@ -8,7 +8,7 @@ Interactive website to calculate the power consumption in a power plant based on
 - [Project Website](#project-website)
 - [Project Workflow](#project-workflow)
 - [Project Description](#project-description)
-- [Installation](#installation)
+- [Requirements](#requirements)
 - [Model Training](#model-training)
 - [Web Application](#web-application)
 - [App Deployment using Heroku](#app-deployment-using-heroku)
@@ -38,15 +38,23 @@ Interactive website to calculate the power consumption in a power plant based on
 
 This project focuses on training several machine learning models on a dataset based on sensor readings in a power plant to predict the net hourly energy output. This problem can be formulated as a regression model as the feature being predicted is a quantitative element. Further, a web application is built using Flask and  deployed using Heroku and the application built using Python can be accessed using an URL. The source code needed for the app deployment is hosted on Github.
 
-## Installation 
+## Requirements 
 
 [(Back to top)](#table-of-contents)
 
-- Flask
-- Heroku
+- Flask 
+- Heroku account
 - Git
 - Pycaret
 - Pandas
+
+## Installation
+
+[(Back to top)](#table-of-contents)
+
+- pip install pycaret
+- pip install flask
+- pip install pandas
 
 ## Model Training 
 
