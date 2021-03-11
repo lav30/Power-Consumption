@@ -1,6 +1,6 @@
 # End to End Machine Learning Pipeline 
 
-![Alt text](powerplant.png?raw=true "Title")
+![Alt text](WebApp.png?raw=true "Title")
 
 Interactive website to calculate the power consumption in a power plant based on distinct variables such as Ambient Temperature , Relative Humidity, Exhaust Vacuum  and Ambient Pressure. Numerical values of these variables can be entered in a website deployed using Heroku to compute the electrical energy per hour (MW).
 
@@ -21,7 +21,6 @@ Interactive website to calculate the power consumption in a power plant based on
 
 [Project Website](https://pycaret-power.herokuapp.com/predict). The user can enter values for different features such as Ambient Temperature, Relative Humidity, Exhaust Vacuum and Ambient Pressure *within the ranges specified* to obtain a prediction for the electrical energy output in MW.  
 
-![Alt text](WebApp1.jpg?raw=true "Title")
 
 ## Project Workflow 
 
