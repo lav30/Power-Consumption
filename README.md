@@ -30,7 +30,14 @@ This project focuses on training several machine learning models on a dataset ba
 
 ## Model Training 
 
-Pycaret 
+Model training was done using [Pycaret](https://pycaret.org/guide/), which is an open source machine learning library that can be used to perform simple classification and regression tasks. This dataset consists of quantitative values and hence a regression task is suitable to make predictions. The Pycaret library can be used to build several machine learning models and the optimal model is chosen based on several performance metrics such as R2, MSE, MAPE, etc. In this project, the metric used to determine the best model is R2. The best model used in making the predictions is XGBoost, although any of the top three models maybe utilised for the same. 20% of the dataset is preserved as the test set. 
+
+The models are created and tuned (10 fold cross validation) and compared using different metrics.
+
+## Model Performance
+
+
+
 
 ## Web Application
 
