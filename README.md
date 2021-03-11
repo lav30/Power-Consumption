@@ -1,4 +1,4 @@
-# End to End Machine Learning Pipeline 
+# End to End Machine Learning Project
 
 ![Alt text](WebApp.png?raw=true "Title")
 
