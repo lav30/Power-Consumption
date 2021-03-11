@@ -14,7 +14,9 @@ Interactive website to calculate the power consumption in a power plant based on
 - [Web Application](#web-application)
 - [App Deployment using Heroku](#app-deployment-using-heroku)
 - [Dataset Information](#dataset-information)
+- [Acknowledgements](#acknowledgements)
 - [License](#license)
+
 
 
 ## Project Website 
@@ -63,6 +65,10 @@ The app deployed locally using Flask is deployed as a website using [Heroku](htt
 
 The [dataset](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant#) is available on the UCI Machine Learning Repository.
 
+## Acknowledgements
+
+ https://github.com/pycaret/deployment-heroku
+
 ## License
 
 Released under MIT License.
@@ -73,6 +79,4 @@ Released under MIT License.
 ([Web Link])
 
 2. Heysem Kaya, Pınar Tüfekci , Sadık Fikret Gürgen: Local and Global Learning Methods for Predicting Power of a Combined Gas & Steam Turbine, Proceedings of the International Conference on Emerging Trends in Computer and Electronics Engineering ICETCEE 2012, pp. 13-18 (Mar. 2012, Dubai)
-
-3. https://github.com/pycaret/deployment-heroku
 
