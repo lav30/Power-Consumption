@@ -35,7 +35,8 @@ The models are created and tuned (10 fold cross validation) and compared using d
 
 ## Model Performance
 
-![](ResPlot.png)
+![Alt text](ResPlot.png?raw=true "Title")
+
 
 ## Web Application
 
