@@ -52,8 +52,8 @@ This project focuses on training several machine learning models on a dataset ba
 
 [(Back to top)](#table-of-contents)
 
-- pip install pycaret
-- pip install flask
+- pip install [pycaret](https://pycaret.org/install/)
+- pip install [flask](https://pypi.org/project/Flask/)
 - pip install pandas
 
 ## Model Training 
