@@ -21,7 +21,7 @@ Interactive website to calculate the power consumption in a power plant based on
 
 [(Back to top)](#table-of-contents)
 
-[Project Website](https://pycaret-power.herokuapp.com/predict). The user can enter values for different features such as Ambient Temperature, Relative Humidity, Exhaust Vacuum and Ambient Pressure *within the ranges specified* to obtain a prediction for the electrical energy output in MW.  
+[Project Website](https://pycaret-power.herokuapp.com). The user can enter values for different features such as Ambient Temperature, Relative Humidity, Exhaust Vacuum and Ambient Pressure *within the ranges specified* to obtain a prediction for the electrical energy output in MW.  
 
 
 ## Project Workflow 
